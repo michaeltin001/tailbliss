@@ -232,11 +232,8 @@ caches:
   assets:
     dir: :cacheDir/assets
     maxAge: "0s" # Disable caching in development
-  getcsv:
-    dir: :cacheDir/getcsv
-    maxAge: 3600s # 1 hour
-  getjson:
-    dir: :cacheDir/getjson
+  getresource:
+    dir: :cacheDir/getresource
     maxAge: 3600s # 1 hour
   images:
     dir: :cacheDir/images
