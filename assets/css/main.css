@@ -233,7 +233,7 @@ img[loading="lazy"] {
 
 /* Custom prose styles for markdown content */
 .prose {
-  max-width: 100ch;
+  max-width: 80%;
   color: var(--color-zinc-800);
 }
 
